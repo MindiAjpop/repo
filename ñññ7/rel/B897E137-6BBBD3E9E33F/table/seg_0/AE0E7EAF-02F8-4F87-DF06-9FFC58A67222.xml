@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AE0E7EAF-02F8-4F87-DF06-9FFC58A67222" name="`detalle_solucion`">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="`Id_Detalle`" id="5D563594-3CCB-8D85-ECE4-6513EE86BC11">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Pregunta`" id="93BE9EFD-9162-34C6-0A00-38AF015888F1">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71738DB8-143E-435E-0C30-10E229E88622" referredColumn="46B42838-6F36-B433-AFF0-32F9FCDB6782"/>
+</associations>
+</Column>
+<Column name="`Respuesta_E`" id="F862DE14-04DD-0DD0-6166-E30843316272">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB69B865-1F40-041A-9F6A-16BE856A3134</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Resuelta`" id="0BD9F0A2-4D3C-4A59-9162-820F8B1CB5DD">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACACBB8D-2415-7AA6-60D6-6B8CB361EB78" referredColumn="971FF529-088B-F763-857E-18CA93D1AE1E"/>
+</associations>
+</Column>
+<Column name="UNIQUE" id="C961A8B7-D9DA-1DE1-F6F7-14913358258E">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY" id="BB59FF80-A740-C459-17DB-F76C7BA24D35">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BA7D1D10-CE97-784B-2B91-44896DE95113" name="`detalle_solucion`_PK">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D563594-3CCB-8D85-ECE4-6513EE86BC11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7730526E-A9A6-0695-99B8-3302FAF2AAAB" name="`PREGUNTADET_FK`">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93BE9EFD-9162-34C6-0A00-38AF015888F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30BDFB01-FDB0-EC8D-49FF-A4F007313F57" name="`RESUELTA_FK`">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD9F0A2-4D3C-4A59-9162-820F8B1CB5DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

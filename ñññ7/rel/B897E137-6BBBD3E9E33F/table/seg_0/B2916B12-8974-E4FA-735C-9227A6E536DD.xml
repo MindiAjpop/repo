@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2916B12-8974-E4FA-735C-9227A6E536DD" name="`respuesta_multiple`">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="`Id_RMultiple`" id="DE2A6F26-3CB3-33E8-89DF-35B109CC85EA">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Booleano`" id="39B60F1F-B00B-9ADD-B166-1EC1FB212EEA">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Respuesta`" id="5CB49D08-72C9-5A84-1C66-36D6305FEE8A">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB69B865-1F40-041A-9F6A-16BE856A3134</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Pregunta`" id="5A04FD08-5604-1754-8B88-130FDAA033D9">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E41DB2F9-ACE3-CD35-46AE-7F1E8D93F331" referredColumn="46B42838-6F36-B433-AFF0-32F9FCDB6782"/>
+</associations>
+</Column>
+<Column name="UNIQUE" id="B5DAF62C-A71C-C894-51E6-28D735F7DF53">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY" id="654B5316-5616-A3B0-65E9-3400C909977B">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B17B187-B2DC-1A82-6158-50D52781CA01" name="`respuesta_multiple`_PK">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE2A6F26-3CB3-33E8-89DF-35B109CC85EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBA5E59F-8219-2549-1159-28F9DEF4BFA3" name="`PREGUNTAM_FK`">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A04FD08-5604-1754-8B88-130FDAA033D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE3BCA8-601F-A9DB-164F-55F2BADEF42C" name="`comprobacion_resuelta`">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="`Id_Resuelta`" id="971FF529-088B-F763-857E-18CA93D1AE1E">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`NombreE`" id="9B5DB2CE-36E9-514D-7C40-20B7B808F9AF">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB69B865-1F40-041A-9F6A-16BE856A3134</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`ApellidoE`" id="68CC6272-CEAF-75B8-2282-D6FA2B9846D8">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB69B865-1F40-041A-9F6A-16BE856A3134</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Correctas`" id="B052DB7D-8E20-C163-81C8-CAEAF9159D65">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Incorrectas`" id="C07815FC-A19D-45CB-1F92-6E88B0427063">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Ciudad`" id="14E34D08-5DF0-2C83-51D9-FC4908BC82D5">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A8E1C3-695D-8909-DB7E-BB42C01F53C7" referredColumn="ADCB2A6D-E95A-B61C-E1FF-6503609F7753"/>
+</associations>
+</Column>
+<Column name="`Comprobacion`" id="D09BE291-EC66-0894-425C-757FA26DE067">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="601EC0C9-A614-B404-E082-5D6700064914" referredColumn="F23CBF6E-E632-53E7-81DC-AB63A2F3D137"/>
+</associations>
+</Column>
+<Column name="KEY" id="CBA4796E-CB34-6160-9336-0BF23866A159">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY1" id="F3512847-9F4F-B6E5-63A3-073A404C8DE0">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F274D7C6-5C0C-577D-0D19-9509B8313D56" name="`comprobacion_resuelta`_PK">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="971FF529-088B-F763-857E-18CA93D1AE1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="473BB7B0-443E-9AF5-71AF-65A51844E9DD" name="`CIUDAD_FK`">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14E34D08-5DF0-2C83-51D9-FC4908BC82D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7F7D2E1-A8A4-BB10-BB50-7D58052AF782" name="`COMPROBACIONRESUELTA_FK`">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D09BE291-EC66-0894-425C-757FA26DE067"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

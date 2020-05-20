@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="`comprobacion`" directorySegmentName="seg_0" id="ACA8671B-C50F-54BD-5B02-B9A4EDC4BA00">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UNIQUE" id="29CCA877-A3F4-B033-3068-A01E4EE1D37F">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="`Descripcion`" id="965B9F0F-10BD-9AD7-2AE8-49CFBD488AB7">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="`Titulo`" id="DD870958-E1A8-5DC4-7A21-CF9483AD0D25">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="`Id_Comprobacion`" id="F23CBF6E-E632-53E7-81DC-AB63A2F3D137">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="`TITULO_FK`" id="1B3E1FAE-8369-BF61-5D24-02539C902447">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="`comprobacion`_PK" id="3F33AFE3-F4B7-0644-1C69-A16F76920E7F">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

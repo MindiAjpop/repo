@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="`usuario`" directorySegmentName="seg_0" id="05AF4A3D-4EFB-2BCD-667C-576FBEB44CA2">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="`Apellido`" id="52A85329-E817-7AAB-5879-43D289DED579">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="`ContraseÃ±a`" id="5D6FDFDC-3B79-163F-626E-CA55BC8EFF37">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KEY" id="64EB0804-6F2A-7B3C-584D-F92850607DDD">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="`Id_Usuario`" id="6620E460-984E-C138-8BE2-F5718867B308">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="`Tipo`" id="A60898C2-28E9-DB2A-9CD3-FEA37DBF1C88">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="`Nombre`" id="FACD939B-B59C-804F-3D64-99533A1A69F7">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="`TIPO_FK`" id="CC28039A-0A23-B410-E35D-BA8570658C24">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="`usuario`_PK" id="4BDBDCCB-A847-B1C6-154D-9DF808CF7A5D">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

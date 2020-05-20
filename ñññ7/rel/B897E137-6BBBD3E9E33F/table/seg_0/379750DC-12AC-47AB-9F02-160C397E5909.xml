@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="379750DC-12AC-47AB-9F02-160C397E5909" name="`pregunta`">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="`Id_Pregunta`" id="46B42838-6F36-B433-AFF0-32F9FCDB6782">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Pregunta`" id="6C45C037-73FE-19FA-F9AC-E1B590F75A0F">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB69B865-1F40-041A-9F6A-16BE856A3134</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Comprobacion`" id="5DBDA136-B1A2-C3D9-CBF9-FD8E0010DE3D">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37EF6987-DF1A-840E-D602-EF2F3C454AFB" referredColumn="F23CBF6E-E632-53E7-81DC-AB63A2F3D137"/>
+</associations>
+</Column>
+<Column name="`Tipo_Pregunta`" id="ECC1069C-AC4A-BB8D-3339-F24CBDBBFD6E">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E212F51-763E-5442-A559-26A546C30BF2" referredColumn="83EE1A67-70E2-23F5-1486-F53C5550D773"/>
+</associations>
+</Column>
+<Column name="UNIQUE" id="1C101912-7270-EE05-12DA-E5438F089D3E">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KEY" id="4AF1B93F-8DAD-A8A0-F94C-2DBC9ABCD18B">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4D5A2E2-A13C-6FB4-78F4-7AE2B1B7EC74" name="`pregunta`_PK">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B42838-6F36-B433-AFF0-32F9FCDB6782"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E30036C8-A8B1-837B-7D81-BDF7F2831B37" name="`COMPROBACION_FK`">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DBDA136-B1A2-C3D9-CBF9-FD8E0010DE3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A3B76E4-7CAE-2F88-BAC7-1A8101F1A416" name="`TIPO_PR_FK`">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECC1069C-AC4A-BB8D-3339-F24CBDBBFD6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

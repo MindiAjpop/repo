@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACA8671B-C50F-54BD-5B02-B9A4EDC4BA00" name="`comprobacion`">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="`Id_Comprobacion`" id="F23CBF6E-E632-53E7-81DC-AB63A2F3D137">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Descripcion`" id="965B9F0F-10BD-9AD7-2AE8-49CFBD488AB7">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB69B865-1F40-041A-9F6A-16BE856A3134</domain>
+<defaultValue>NULL</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="`Titulo`" id="DD870958-E1A8-5DC4-7A21-CF9483AD0D25">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>82222C94-2827-B018-C8BC-DE9F840CE30D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4FAF587-EB28-17F2-DE99-2263895D0DC0" referredColumn="EDF44B78-DD25-20F5-8059-3F6F1E5F3176"/>
+</associations>
+</Column>
+<Column name="UNIQUE" id="29CCA877-A3F4-B033-3068-A01E4EE1D37F">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F33AFE3-F4B7-0644-1C69-A16F76920E7F" name="`comprobacion`_PK">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F23CBF6E-E632-53E7-81DC-AB63A2F3D137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B3E1FAE-8369-BF61-5D24-02539C902447" name="`TITULO_FK`">
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD870958-E1A8-5DC4-7A21-CF9483AD0D25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

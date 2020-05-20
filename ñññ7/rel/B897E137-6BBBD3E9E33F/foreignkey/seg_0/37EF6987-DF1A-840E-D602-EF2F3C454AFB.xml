@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="37EF6987-DF1A-840E-D602-EF2F3C454AFB" containerWithKeyObject="379750DC-12AC-47AB-9F02-160C397E5909" localFKIndex="E30036C8-A8B1-837B-7D81-BDF7F2831B37" name="`COMPROBACION_FK`">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<referredTableLongName>`comprobacion`</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>ACA8671B-C50F-54BD-5B02-B9A4EDC4BA00</referredTableID>
+<keyObject>3F33AFE3-F4B7-0644-1C69-A16F76920E7F</keyObject>
+<referredKeyID>3F33AFE3-F4B7-0644-1C69-A16F76920E7F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>`Id_Comprobacion`</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

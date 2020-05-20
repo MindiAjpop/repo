@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ACACBB8D-2415-7AA6-60D6-6B8CB361EB78" containerWithKeyObject="AE0E7EAF-02F8-4F87-DF06-9FFC58A67222" localFKIndex="30BDFB01-FDB0-EC8D-49FF-A4F007313F57" name="`RESUELTA_FK`">
+<sourceDDLFile>diged.sql</sourceDDLFile>
+<createdBy>Mindi</createdBy>
+<createdTime>2020-05-20 22:20:42 UTC</createdTime>
+<ownerDesignName>ñññ7</ownerDesignName>
+<referredTableLongName>`comprobacion_resuelta`</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>AAE3BCA8-601F-A9DB-164F-55F2BADEF42C</referredTableID>
+<keyObject>F274D7C6-5C0C-577D-0D19-9509B8313D56</keyObject>
+<referredKeyID>F274D7C6-5C0C-577D-0D19-9509B8313D56</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>`Id_Resuelta`</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
